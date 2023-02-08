@@ -43,4 +43,16 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.4s ease-out;
+
 }
+/* .hour-hand {
+}
+
+.min-hand {
+}
+
+.second-hand {
+} */
