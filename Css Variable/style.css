@@ -19,3 +19,19 @@
         width: 100px;
       }
 
+      :root {
+        --base : #ffc600;
+        --spacing : 10px;
+        --blur : 10px;
+      }
+
+      img {
+          filter: blur(var(--blur));
+          padding: var(--spacing);
+          background-color: var(--base);
+      }
+
+      .hl{
+          color: var(--base);
+      }
+
